@@ -1,0 +1,124 @@
+.navbar {
+
+
+    .hamburger-lines {
+        display: none;
+    }
+
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    opacity: 0.85;
+    height: 50px;
+    z-index: 12;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.menu-items {
+    order: 2;
+    display: flex;
+
+    li {
+        list-style: none;
+        margin-left: 1.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: #444;
+        font-weight: 500;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: #117964;
+            transition: color 0.3s ease-in-out;
+        }
+    }
+}
+
+.logo {
+    order: 1;
+    font-size: 2.3rem;
+    margin-bottom: 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        opacity: 0.95;
+
+        .menu-items {
+            padding-top: 100px;
+            background: #fff;
+            height: 100vh;
+            max-width: 300px;
+            transform: translate(-150%);
+            display: flex;
+            flex-direction: column;
+            margin-left: -40px;
+            padding-left: 50px;
+            transition: transform 0.5s ease-in-out;
+            box-shadow: 5px 0px 10px 0px #aaa;
+
+            li {
+                margin-bottom: 1.5rem;
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .navbar-container {
+
+
+        display: block;
+        position: relative;
+        height: 64px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 5px;
+        right: 15px;
+        font-size: 2rem;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+    html {
+        font-size: 65%;
+    }
+
+    .navbar {
+        .menu-items {
+            li {
+                font-size: 1.6rem;
+                margin-bottom: 2.5rem;
+                font-size: 1.8rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+
+
+    .logo {
+        position: absolute;
+        top: 06px;
+        right: 15px;
+        font-size: 3rem;
+    }
+}
