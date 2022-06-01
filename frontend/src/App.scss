@@ -23,7 +23,13 @@
 body {
     font-family: "Poppins", sans-serif;
 }
-
+p {
+    display: -webkit-box;
+    max-width: 200px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 .container {
     max-width: 1200px;
     width: 90%;

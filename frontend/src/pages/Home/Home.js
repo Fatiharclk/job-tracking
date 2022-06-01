@@ -114,6 +114,7 @@ export default function Home() {
                 }}
             >
                 <Input
+                   
                     ref={searchInput}
                     placeholder={`Search ${dataIndex}`}
                     value={selectedKeys[0]}
@@ -204,7 +205,7 @@ export default function Home() {
                         </Tooltip>
                     </div>
                     <div className='Row'>
-                        <Input className='Input' placeholder="Job Title" onChange={(e) => onChangeItemName(e.target.value)} />
+                        <Input  maxLength={255} className='Input' placeholder="Job Title" onChange={(e) => onChangeItemName(e.target.value)} />
                         <PrioritySelect onSearch={onSearch} onChange={onChangeItemPriority}></PrioritySelect>
                         <Button className='Button' type="primary" onClick={() => AddItemJob()}>Create</Button>
                     </div>

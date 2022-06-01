@@ -6,7 +6,8 @@ const columns = (TagColor, map, getColumnSearchProps, showModal, dispatch, Delet
         dataIndex: 'name',
         key: 'name',
         width: '80%',
-        render: (text) => <div>{text}</div>,
+        
+        render: (text) => <p>{text} </p>,
         ...getColumnSearchProps('name'),
         sorter: (a, b) => a.name.localeCompare(b.name)
     },
