@@ -1,6 +1,6 @@
 ### KURULUM
 
-"backend" ve "frontedn" kalsörü içerisinde `npm install` veya `yarn ` ile paketleri yüklüyoruz.
+"backend" ve "frontend" kalsörü içerisinde `npm install` veya `yarn ` ile paketleri yüklüyoruz.
 
 ### ÇALIŞTIRMAK
 
