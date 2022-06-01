@@ -1,0 +1,121 @@
+.Job-Traking-Main {
+    padding: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+    .Add-Job {
+        padding: 1.2rem;
+        border-radius: 20px;
+
+        .Title-Row {
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+            align-self: center;
+
+            .Title {
+                font-weight: bold;
+                padding: 0.2rem;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            .Icon {
+                margin-bottom: 8px;
+            }
+        }
+
+
+
+
+        .Row {
+            display: flex;
+            margin-top: 1%;
+
+            .Input {
+                margin: 4px;
+            }
+
+            .Select {
+                margin: 4px;
+            }
+
+            .Button {
+                margin: 4px;
+            }
+        }
+
+    }
+
+
+
+    .Table {
+        padding: 30px;
+
+        .Title {
+            padding: 0.2rem;
+            font-weight: bold;
+            padding: 0.2rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        padding: 1.2rem;
+        border-radius: 20px;
+        margin-top: 1%;
+    }
+}
+
+@media (max-width: 500px) {
+    .Job-Traking-Main {
+        padding: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-top: 3%;
+
+        .Add-Job {
+            padding: 1.2rem;
+            border-radius: 20px;
+
+            .Title {
+                font-weight: bold;
+                padding: 0.2rem;
+            }
+
+            .Row {
+                margin-top: 1%;
+                display: flex;
+
+                .Hr {
+                    color: blue;
+                }
+
+                .Input {
+                    margin: 4px;
+                }
+
+                .Select {
+                    margin: 4px;
+                }
+
+                .Button {
+                    margin: 4px;
+                }
+            }
+
+        }
+
+
+
+        .Table {
+            padding: 30px;
+
+            .Title {
+                padding: 0.2rem;
+
+            }
+
+            padding: 1.2rem;
+            border-radius: 20px;
+            margin-top: 1%;
+        }
+    }
+}
