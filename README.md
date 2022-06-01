@@ -1,10 +1,10 @@
-### KURULUM
+### SETUP
 
-"backend" ve "frontend" kalsörü içerisinde `npm install` veya `yarn ` ile paketleri yüklüyoruz.
+In the "backend" and "frontend" folder, we install the packages with `npm install` or `yarn `.
 
-### ÇALIŞTIRMAK
+### RUN
 
-"backend"  kalsörü içerisinde `npm start` veya `yarn start` ile projeyi çalıştırıyoruz.
+We run the project with `npm start` or `yarn start` in the "backend" folder.
 
 
 
