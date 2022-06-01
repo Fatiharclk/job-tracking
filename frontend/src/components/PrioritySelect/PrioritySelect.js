@@ -1,7 +1,7 @@
 import React from 'react'
 import { Select } from 'antd';
 
-export default function PrioritySelect({ onChange, onSearch }) {
+export default function PrioritySelect({ onChange, onSearch,width }) {
     const { Option } = Select;
     return (
         <>
@@ -12,6 +12,7 @@ export default function PrioritySelect({ onChange, onSearch }) {
                 optionFilterProp="children"
                 onChange={onChange}
                 onSearch={onSearch}
+                style={{width:width}}
                 filterOption={(input, option) => option.children.toLowerCase().includes(input.toLowerCase())}
             >
 

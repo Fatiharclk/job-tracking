@@ -7,7 +7,7 @@ export default function EditModal({ isModalVisible, handleOk, handleCancel, Edit
         <>
             <Modal title="Edit Job" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
                 <Input className='Input' disabled placeholder="Job Title" value={EditValue} />
-                <PrioritySelect onSearch={onSearch} onChange={onChange}></PrioritySelect>
+                <PrioritySelect onSearch={onSearch} onChange={onChange} width={"100%"}></PrioritySelect>
             </Modal>
         </>
     )
